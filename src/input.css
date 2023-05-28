@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.intro {
+  background-image: url(../assets/images/Robo.jpg);
+  background-size: 100%;
+  padding-top: 120px;
+}
+
+.text {
+  width: 621.55px;
+  height: 282px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 100px;
+  line-height: 94px; /* or 94% */
+  color: #000000;
+}
+/* 
+.intro2{
+  background-image: url(../assets/images/Kosmos.jpg);
+  background-position: top;
+  background-size: 100%;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 120px
+} */
+
+.card {
+  width: 485px;
+  height: 250px;
+  right: 97px;
+  top: 110px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #000000;
+}
